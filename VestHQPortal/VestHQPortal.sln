@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77DC536C-25FC-4A1C-88B2-64E7DECB2F10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6EB7EDF-F06F-420F-819F-9B63DCCE6A61}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VestHQPortal", "src\VestHQPortal\VestHQPortal.xproj", "{8E9E4AE5-2FAB-406A-B73E-B5D1B60F8B77}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VestHQModel", "VestHQModel\VestHQModel.xproj", "{8EB9B111-9638-4A19-96F7-ADF666018B7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E9E4AE5-2FAB-406A-B73E-B5D1B60F8B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9E4AE5-2FAB-406A-B73E-B5D1B60F8B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9E4AE5-2FAB-406A-B73E-B5D1B60F8B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9E4AE5-2FAB-406A-B73E-B5D1B60F8B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB9B111-9638-4A19-96F7-ADF666018B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB9B111-9638-4A19-96F7-ADF666018B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB9B111-9638-4A19-96F7-ADF666018B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB9B111-9638-4A19-96F7-ADF666018B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E9E4AE5-2FAB-406A-B73E-B5D1B60F8B77} = {77DC536C-25FC-4A1C-88B2-64E7DECB2F10}
+		{8EB9B111-9638-4A19-96F7-ADF666018B7E} = {77DC536C-25FC-4A1C-88B2-64E7DECB2F10}
+	EndGlobalSection
+EndGlobal
